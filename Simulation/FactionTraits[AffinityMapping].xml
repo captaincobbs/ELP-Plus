@@ -74,4 +74,84 @@
   <FactionAffinityMapping Name="AffinityMappingUrkanC" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
     <SimulationDescriptorReference Name="AffinityMappingUrkanC" />
   </FactionAffinityMapping>
+
+   <!-- Bos -->
+  <FactionAffinityMapping Name="AffinityMappingBos" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingBos" />
+  </FactionAffinityMapping>
+
+  <!-- Ceratan -->
+  <FactionAffinityMapping Name="AffinityMappingCeratan" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingCeratan" />
+  </FactionAffinityMapping>
+
+  <!-- Delvers -->
+  <FactionAffinityMapping Name="AffinityMappingDelvers" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingDelvers" />
+  </FactionAffinityMapping>
+
+  <!-- Dorgeshi -->
+  <FactionAffinityMapping Name="AffinityMappingDorgeshi" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingDorgeshi" />
+  </FactionAffinityMapping>
+
+  <!-- Erycis -->
+  <FactionAffinityMapping Name="AffinityMappingErycis" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingErycis" />
+  </FactionAffinityMapping>
+
+  <!-- Eyeless Ones -->
+  <FactionAffinityMapping Name="AffinityMappingEyeless" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingEyeless" />
+  </FactionAffinityMapping>
+
+  <!-- Fomorian -->
+  <FactionAffinityMapping Name="AffinityMappingFomorian" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingFomorian" />
+  </FactionAffinityMapping>
+
+  <!-- Gauran -->
+  <FactionAffinityMapping Name="AffinityMappingGauran" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingGauran" />
+  </FactionAffinityMapping>
+
+  <!-- Geldirus -->
+  <FactionAffinityMapping Name="AffinityMappingGeldirus" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingGeldirus" />
+  </FactionAffinityMapping>
+
+  <!-- Haunts -->
+  <FactionAffinityMapping Name="AffinityMappingHaunts" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingHaunts" />
+  </FactionAffinityMapping>
+
+  <!-- Hurnas -->
+  <FactionAffinityMapping Name="AffinityMappingHurnas" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingHurnas" />
+  </FactionAffinityMapping>
+
+  <!-- Jotus -->
+  <FactionAffinityMapping Name="AffinityMappingJotus" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingJotus" />
+  </FactionAffinityMapping>
+
+  <!-- Kazanji -->
+  <FactionAffinityMapping Name="AffinityMappingKazanji" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingKazanji" />
+  </FactionAffinityMapping>
+
+  <!-- Magtay -->
+  <FactionAffinityMapping Name="AffinityMappingMagtay" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingMagtay" />
+  </FactionAffinityMapping>
+
+  <!-- Nidya -->
+  <FactionAffinityMapping Name="AffinityMappingNidya" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingNidya" />
+  </FactionAffinityMapping>
+
+  <!-- Urces -->
+  <FactionAffinityMapping Name="AffinityMappingUrces" SubCategory="MinorFactionAffinityMapping" Hidden="false" Custom="false" Cost="0" >
+    <SimulationDescriptorReference Name="AffinityMappingUrces" />
+  </FactionAffinityMapping>
 </Datatable>
