@@ -42,7 +42,6 @@
     <Entry Tag="MinorFactionPhages"         Weight="1" />
     <Entry Tag="MinorFactionRoving"         Weight="1" />
     <Entry Tag="MinorFactionWalkers"        Weight="1" />
-    <!-- Compatibility -->
     <Entry Tag="MinorFactionBos"            Weight="1" />
     <Entry Tag="MinorFactionCeratan"        Weight="1" />
     <Entry Tag="MinorFactionDelvers"        Weight="1" />
@@ -69,6 +68,7 @@
     <Entry Tag="PlanetTypeIce"                   Weight="5" />
     <Entry Tag="PlanetTypeArctic"                Weight="5" />
   </GalaxyGeneratorWeightTable>
+  
   <!-- Ardent Mages -->
   <GalaxyGeneratorWeightTable Name="MinorFactionArdent_PlanetTypes" >
     <Entry Tag="PlanetTypeDesert"               Weight="1" />
@@ -93,6 +93,7 @@
     <Entry Tag="PlanetTypeVeldt"                Weight="1" />
     <Entry Tag="PlanetTypeTropical"             Weight="1" />
   </GalaxyGeneratorWeightTable>
+  
   <!-- Broken Lords -->
   <GalaxyGeneratorWeightTable Name="MinorFactionLords_PlanetTypes" >
     <Entry Tag="PlanetTypeDesert"               Weight="1" />
@@ -106,6 +107,7 @@
     <Entry Tag="PlanetTypeBarren"               Weight="3" />
     <Entry Tag="PlanetTypeForest"               Weight="2" />
   </GalaxyGeneratorWeightTable>
+  
   <!-- Cultists -->
   <GalaxyGeneratorWeightTable Name="MinorFactionCultists_PlanetTypes" >
     <Entry Tag="PlanetTypeDesert"               Weight="1" />
@@ -130,6 +132,7 @@
     <Entry Tag="PlanetTypeVeldt"                Weight="1" />
     <Entry Tag="PlanetTypeTropical"             Weight="1" />
   </GalaxyGeneratorWeightTable>
+  
   <!-- Drakken -->
   <GalaxyGeneratorWeightTable Name="MinorFactionDrakken_PlanetTypes" >
     <Entry Tag="PlanetTypeArid"                 Weight="3" />
@@ -140,6 +143,7 @@
     <Entry Tag="PlanetTypeTropical"             Weight="1" />
     <Entry Tag="PlanetTypeTerran"               Weight="1" />
   </GalaxyGeneratorWeightTable>
+  
   <!-- Forgotten -->
   <GalaxyGeneratorWeightTable Name="MinorFactionForgotten_PlanetTypes" >
     <Entry Tag="PlanetTypeDesert"               Weight="1" />
@@ -158,10 +162,12 @@
     <Entry Tag="PlanetTypeJungle"               Weight="3" />
     <Entry Tag="PlanetTypeArid"                 Weight="1" />
   </GalaxyGeneratorWeightTable>
+  
   <!-- Kapaku -->
   <GalaxyGeneratorWeightTable Name="MinorFactionKapaku_PlanetTypes" >
     <Entry Tag="Lava"                           Weight="1" />
   </GalaxyGeneratorWeightTable>
+  
   <!-- Morgawr -->
   <GalaxyGeneratorWeightTable Name="MinorFactionMorgawr_PlanetTypes" >
     <Entry Tag="PlanetTypeOcean"                 Weight="5" />
@@ -170,6 +176,7 @@
     <Entry Tag="PlanetTypeMonsoon"               Weight="2" />
     <Entry Tag="PlanetTypeAtoll"                 Weight="2" />
   </GalaxyGeneratorWeightTable>
+  
   <!-- Mykara -->
   <GalaxyGeneratorWeightTable Name="MinorFactionMykara_PlanetTypes" >
     <Entry Tag="PlanetTypeForest"                Weight="10" />
@@ -177,6 +184,7 @@
     <Entry Tag="PlanetTypeOcean"                 Weight="4" />
     <Entry Tag="PlanetTypeTerran"                Weight="1" />
   </GalaxyGeneratorWeightTable>
+  
   <!-- Necrophages -->
   <GalaxyGeneratorWeightTable Name="MinorFactionPhages_PlanetTypes" >
     <Entry Tag="PlanetTypeForest"               Weight="5" />
@@ -187,6 +195,7 @@
     <Entry Tag="PlanetTypeJungle"               Weight="2" />
     <Entry Tag="PlanetTypeBoreal"               Weight="3" />
   </GalaxyGeneratorWeightTable>
+  
   <!-- Roving Clans -->
   <GalaxyGeneratorWeightTable Name="MinorFactionRoving_PlanetTypes" >
     <Entry Tag="PlanetTypeDesert"                Weight="10" />
@@ -195,6 +204,7 @@
     <Entry Tag="PlanetTypeTerran"                Weight="4" />
     <Entry Tag="PlanetTypeAtoll"                 Weight="2" />
   </GalaxyGeneratorWeightTable>
+  
   <!-- Wild Walkers -->
   <GalaxyGeneratorWeightTable Name="MinorFactionWalkers_PlanetTypes" >
     <Entry Tag="PlanetTypeForest"                Weight="10" />
@@ -204,5 +214,164 @@
     <Entry Tag="PlanetTypeOcean"                 Weight="2" />
     <Entry Tag="PlanetTypeAtoll"                 Weight="2" />
     <Entry Tag="PlanetTypeMonsoon"               Weight="2" />
+  </GalaxyGeneratorWeightTable>
+
+  <!-- Bos -->
+  <GalaxyGeneratorWeightTable Name="MinorFactionBos_PlanetTypes" >
+    <Entry Tag="PlanetTypeVeldt"                Weight="5" />
+    <Entry Tag="PlanetTypeSteppes"              Weight="5" />
+    <Entry Tag="PlanetTypeForest"               Weight="3" />
+    <Entry Tag="PlanetTypeTundra"               Weight="2" />
+    <Entry Tag="PlanetTypeBoreal"               Weight="1" />
+    <Entry Tag="PlanetTypeTerran"               Weight="1" />
+  </GalaxyGeneratorWeightTable>
+
+  <!-- Ceratan -->
+  <GalaxyGeneratorWeightTable Name="MinorFactionCeratan_PlanetTypes" >
+    <Entry Tag="PlanetTypeVeldt"                Weight="1" />
+    <Entry Tag="PlanetTypeBarren"               Weight="1" />
+    <Entry Tag="PlanetTypeSnow"                 Weight="1" />
+    <Entry Tag="PlanetTypeTundra"               Weight="1" />
+    <Entry Tag="PlanetTypeTerran"               Weight="1" />
+    <Entry Tag="PlanetTypeBoreal"               Weight="1" />
+    <Entry Tag="PlanetTypeMonsoon"              Weight="1" />
+    <Entry Tag="PlanetTypeForest"               Weight="1" />
+    <Entry Tag="PlanetTypeAtoll"                Weight="1" />
+  </GalaxyGeneratorWeightTable>
+
+  <!-- Delvers -->
+  <GalaxyGeneratorWeightTable Name="MinorFactionDelvers_PlanetTypes" >
+    <Entry Tag="PlanetTypeAsh"                  Weight="3" />
+    <Entry Tag="PlanetTypeLava"                 Weight="2" />
+    <Entry Tag="PlanetTypeArid"                 Weight="1" />
+  </GalaxyGeneratorWeightTable>
+
+  <!-- Dorgeshi -->
+  <GalaxyGeneratorWeightTable Name="MinorFactionDorgeshi_PlanetTypes" >
+    <Entry Tag="PlanetTypeVeldt"                Weight="3" />
+    <Entry Tag="PlanetTypeDesert"               Weight="4" />
+    <Entry Tag="PlanetTypeArid"                 Weight="2" />
+    <Entry Tag="PlanetTypeSteppes"              Weight="2" />
+  </GalaxyGeneratorWeightTable>
+  
+  <!-- Erycis -->
+  <GalaxyGeneratorWeightTable Name="MinorFactionErycis_PlanetTypes" >
+    <Entry Tag="PlanetTypeVeldt"                Weight="1" />
+    <Entry Tag="PlanetTypeSwamp"                Weight="3" />
+    <Entry Tag="PlanetTypeMonsoon"              Weight="2" />
+    <Entry Tag="PlanetTypeAtoll"                Weight="1" />
+    <Entry Tag="PlanetTypeOcean"                Weight="1" />
+    <Entry Tag="PlanetTypeTropical"             Weight="1" />
+    <Entry Tag="PlanetTypeForest"               Weight="1" />
+  </GalaxyGeneratorWeightTable>
+
+  <!-- Eyeless -->
+  <GalaxyGeneratorWeightTable Name="MinorFactionEyeless_PlanetTypes" >
+    <Entry Tag="PlanetTypeVeldt"                Weight="1" />
+    <Entry Tag="PlanetTypeTerran"               Weight="1" />
+    <Entry Tag="PlanetTypeArid"                 Weight="2" />
+    <Entry Tag="PlanetTypeAsh"                  Weight="1" />
+    <Entry Tag="PlanetTypeSnow"                 Weight="1" />
+    <Entry Tag="PlanetTypeTundra"               Weight="2" />
+    <Entry Tag="PlanetTypeBarren"               Weight="1" />
+  </GalaxyGeneratorWeightTable>
+
+  <!-- Fomorian -->
+  <GalaxyGeneratorWeightTable Name="MinorFactionFomorian_PlanetTypes" >
+    <Entry Tag="PlanetTypeOcean"                Weight="4" />
+    <Entry Tag="PlanetTypeMonsoon"              Weight="1" />
+  </GalaxyGeneratorWeightTable>
+
+  <!-- Gauran -->
+  <GalaxyGeneratorWeightTable Name="MinorFactionGauran_PlanetTypes" >
+    <Entry Tag="PlanetTypeVeldt"                Weight="3" />
+    <Entry Tag="PlanetTypeTerran"               Weight="2" />
+    <Entry Tag="PlanetTypeForest"               Weight="3" />
+    <Entry Tag="PlanetTypeOcean"                Weight="1" />
+    <Entry Tag="PlanetTypeMonsoon"              Weight="2" />
+  </GalaxyGeneratorWeightTable>
+
+  <!-- Geldirus -->
+  <GalaxyGeneratorWeightTable Name="MinorFactionGeldirus_PlanetTypes" >
+    <Entry Tag="PlanetTypeVeldt"                Weight="1" />
+    <Entry Tag="PlanetTypeArctic"               Weight="3" />
+    <Entry Tag="PlanetTypeSteppes"              Weight="2" />
+    <Entry Tag="PlanetTypeSnow"                 Weight="2" />
+    <Entry Tag="PlanetTypeTundra"               Weight="2" />
+    <Entry Tag="PlanetTypeTerran"               Weight="1" />
+    <Entry Tag="PlanetTypeBoreal"               Weight="1" />
+    <Entry Tag="PlanetTypeForest"               Weight="1" />
+    <Entry Tag="PlanetTypeIce"                  Weight="1" />
+  </GalaxyGeneratorWeightTable>
+
+  <!-- Haunts -->
+  <GalaxyGeneratorWeightTable Name="MinorFactionHaunts_PlanetTypes" >
+    <Entry Tag="PlanetTypeTerran"               Weight="1" />
+    <Entry Tag="PlanetTypeBarren"               Weight="4" />
+    <Entry Tag="PlanetTypeAsh"                  Weight="2" />
+    <Entry Tag="PlanetTypeIce"                  Weight="2" />
+    <Entry Tag="PlanetTypeLava"                 Weight="1" />
+  </GalaxyGeneratorWeightTable>
+
+  <!-- Hurnas -->
+  <GalaxyGeneratorWeightTable Name="MinorFactionHurnas_PlanetTypes" >
+    <Entry Tag="PlanetTypeVeldt"                Weight="1" />
+    <Entry Tag="PlanetTypeArctic"               Weight="3" />
+    <Entry Tag="PlanetTypeSteppes"              Weight="2" />
+    <Entry Tag="PlanetTypeSnow"                 Weight="2" />
+    <Entry Tag="PlanetTypeTundra"               Weight="2" />
+    <Entry Tag="PlanetTypeTerran"               Weight="1" />
+    <Entry Tag="PlanetTypeBoreal"               Weight="1" />
+    <Entry Tag="PlanetTypeForest"               Weight="1" />
+    <Entry Tag="PlanetTypeIce"                  Weight="1" />
+  </GalaxyGeneratorWeightTable>
+
+  <!-- Jotus -->
+  <GalaxyGeneratorWeightTable Name="MinorFactionJotus_PlanetTypes" >
+    <Entry Tag="PlanetTypeVeldt"                Weight="1" />
+    <Entry Tag="PlanetTypeArctic"               Weight="2" />
+    <Entry Tag="PlanetTypeSteppes"              Weight="1" />
+    <Entry Tag="PlanetTypeSnow"                 Weight="2" />
+    <Entry Tag="PlanetTypeTundra"               Weight="1" />
+    <Entry Tag="PlanetTypeTerran"               Weight="1" />
+    <Entry Tag="PlanetTypeBoreal"               Weight="2" />
+    <Entry Tag="PlanetTypeForest"               Weight="3" />
+    <Entry Tag="PlanetTypeIce"                  Weight="1" />
+  </GalaxyGeneratorWeightTable>
+
+  <!-- Kazanji -->
+  <GalaxyGeneratorWeightTable Name="MinorFactionKazanji_PlanetTypes" >
+    <Entry Tag="PlanetTypeAsh"                  Weight="2" />
+    <Entry Tag="PlanetTypeLava"                 Weight="1" />
+  </GalaxyGeneratorWeightTable>
+
+  <!-- Magtay -->
+  <GalaxyGeneratorWeightTable Name="MinorFactionMagtay_PlanetTypes" >
+    <Entry Tag="PlanetTypeTerran"               Weight="5" />
+    <Entry Tag="PlanetTypeVeldt"                Weight="1" />
+    <Entry Tag="PlanetTypeTropical"             Weight="2" />
+    <Entry Tag="PlanetTypeMonsoon"              Weight="4" />
+    <Entry Tag="PlanetTypeOcean"                Weight="2" />
+    <Entry Tag="PlanetTypeAtoll"                Weight="1" />
+  </GalaxyGeneratorWeightTable>
+
+  <!-- Nidya -->
+  <GalaxyGeneratorWeightTable Name="MinorFactionNidya_PlanetTypes" >
+    <Entry Tag="PlanetTypeBarren"               Weight="2" />
+    <Entry Tag="PlanetTypeArctic"               Weight="1" />
+    <Entry Tag="PlanetTypeTerran"               Weight="1" />
+    <Entry Tag="PlanetTypeSteppes"              Weight="1" />
+    <Entry Tag="PlanetTypeSnow"                 Weight="1" />
+    <Entry Tag="PlanetTypeVeldt"                Weight="1" />
+    <Entry Tag="PlanetTypeSwamp"                Weight="1" />
+    <Entry Tag="PlanetTypeForest"               Weight="1" />
+    <Entry Tag="PlanetTypeTundra"               Weight="1" />
+  </GalaxyGeneratorWeightTable>
+
+  <!-- Urces -->
+  <GalaxyGeneratorWeightTable Name="MinorFactionUrces_PlanetTypes" >
+    <Entry Tag="PlanetTypeForest"               Weight="2" />
+    <Entry Tag="PlanetTypeTerran"               Weight="1" />
+    <Entry Tag="PlanetTypeVeldt"                Weight="1" />
   </GalaxyGeneratorWeightTable>
 </Datatable>
