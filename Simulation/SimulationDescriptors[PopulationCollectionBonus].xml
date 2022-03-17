@@ -306,6 +306,186 @@
     <BinaryModifier TargetProperty="SystemProduction" Operation="Addition" Left="0.25" BinaryOperation="Multiplication" Right="$(SystemGrowth)" Path="../ClassEmpire/ClassColonizedStarSystem" SearchValueFromPath="true" TooltipHidden="true" />
   </SimulationDescriptor>
   
+  <!-- Bos -->
+  <SimulationDescriptor Name="PopulationCollectionBonusBos1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityBos" TooltipOverride="%TooltipOverridePositivePolitics04"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusBos2" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="SystemGrowthBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityBos" SearchValueFromPath="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusBos3" Type="PopulationCollectionBonus" >
+    <BinaryModifier TargetProperty="SystemGrowthBonusFromCollection" Operation="Addition" Left="0.05" BinaryOperation="Multiplication" Right="$(OwnedTeemingPlanets)" Path="./ClassEmpire/ClassColonizedStarSystem"   TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <!-- Ceratan -->
+  <SimulationDescriptor Name="PopulationCollectionBonusCeratan1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityCeratan" TooltipOverride="%TooltipOverridePositivePolitics03"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusCeratan2" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="SystemMoneyBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityCeratan" SearchValueFromPath="true" />
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusCeratan3" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="DockedFleetsHealthRegenerationRatioFromCollection" Operation="Addition" Value="0.2" Path="./ClassEmpire/ClassColonizedStarSystem"   TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <!-- Delvers -->
+  <SimulationDescriptor Name="PopulationCollectionBonusDelvers1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityDelvers" TooltipOverride="%TooltipOverridePositivePolitics01"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusDelvers2" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="SystemMoneyBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityDelvers" SearchValueFromPath="true" />
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusDelvers3" Type="PopulationCollectionBonus" >
+    <BinaryModifier TargetProperty="SystemMoneyBonusFromCollection" Operation="Addition" Left="0.1" BinaryOperation="Multiplication" Right="$(OwnedStrategicDeposits)" Path="./ClassEmpire/ClassStarSystem"/>
+  </SimulationDescriptor>
+
+  <!-- Dorgeshi -->
+  <SimulationDescriptor Name="PopulationCollectionBonusDorgeshi1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityDorgeshi" TooltipOverride="%TooltipOverridePositivePolitics06"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusDorgeshi2" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="NetSystemManpowerBonusFromCollection" Operation="Percent" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityDorgeshi" SearchValueFromPath="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusDorgeshi3" Type="PopulationCollectionBonus" >
+    <BinaryModifier TargetProperty="MaximumSystemManpower" Operation="Addition" Left="100" BinaryOperation="Multiplication" Right="$(OwnedLuxuryDeposits)" Path="./ClassEmpire/ClassStarSystem"/>
+  </SimulationDescriptor>
+
+  <!-- Erycis -->
+  <SimulationDescriptor Name="PopulationCollectionBonusErycis1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityErycis" TooltipOverride="%TooltipOverridePositivePolitics05"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusErycis2" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityErycis" SearchValueFromPath="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusErycis3" Type="PopulationCollectionBonus" >
+    <BinaryModifier TargetProperty="ShipMaximumMovement" Operation="Addition" Left="0.2" BinaryOperation="Multiplication" Right="$(CommandPoints)" Path="./ClassEmpire/ClassGarrisonFleet"/>
+  </SimulationDescriptor>
+
+  <!-- Eyeless Ones -->
+  <SimulationDescriptor Name="PopulationCollectionBonusEyeless1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics05ToPolitics05" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityEyeless" TooltipOverride="%TooltipOverridePositivePolitics05"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusEyeless2" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="HappinessBonusFromCollection" Operation="Addition" Value="10" Path="../ClassEmpire/ClassStarSystem/ClassColonizedStarSystem" SearchValueFromPath="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusEyeless3" Type="PopulationCollectionBonus" >
+
+  </SimulationDescriptor>
+
+  <!-- Fomorian -->
+  <SimulationDescriptor Name="PopulationCollectionBonusFomorian1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics01ToPolitics01" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityFomorian" TooltipOverride="%TooltipOverridePositivePolitics01"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusFomorian2" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="ShipsConstructionProductionBonusFromCollection" Operation="Percent" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityFomorian" SearchValueFromPath="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusFomorian3" Type="PopulationCollectionBonus" >
+    <BinaryModifier TargetProperty="NetStrategic1" Operation="Addition" Left="0.25"	BinaryOperation="Multiplication" Right="$(SystemCount)" Path="../ClassEmpire" />
+    <BinaryModifier TargetProperty="NetStrategic2" Operation="Addition" Left="0.25"	BinaryOperation="Multiplication" Right="$(SystemCount)" Path="../ClassEmpire" />
+    <BinaryModifier TargetProperty="NetStrategic3" Operation="Addition" Left="0.25"	BinaryOperation="Multiplication" Right="$(SystemCount)" Path="../ClassEmpire" />
+    <BinaryModifier TargetProperty="NetStrategic4" Operation="Addition" Left="0.25"	BinaryOperation="Multiplication" Right="$(SystemCount)" Path="../ClassEmpire" />
+    <BinaryModifier TargetProperty="NetStrategic5" Operation="Addition" Left="0.25"	BinaryOperation="Multiplication" Right="$(SystemCount)" Path="../ClassEmpire" />
+    <BinaryModifier TargetProperty="NetStrategic6" Operation="Addition" Left="0.25"	BinaryOperation="Multiplication" Right="$(SystemCount)" Path="../ClassEmpire" />
+  </SimulationDescriptor>
+
+  <!-- Gauran -->
+  <SimulationDescriptor Name="PopulationCollectionBonusGauran1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityGauran" TooltipOverride="%TooltipOverridePositivePolitics04"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusGauran2" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="SystemGrowthBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityGauran" SearchValueFromPath="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusGauran3" Type="PopulationCollectionBonus" >
+    <BinaryModifier TargetProperty="Health" Operation="Percent"   Left="0.03" BinaryOperation="Multiplication" Right="$(Level)" Path="./ClassEmpire/ClassGarrison/ClassShip" SearchValueFromPath="true" TooltipHidden="true"/>
+  </SimulationDescriptor>
+
+  <!-- Geldirus -->
+  <SimulationDescriptor Name="PopulationCollectionBonusGeldirus1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityGeldirus" TooltipOverride="%TooltipOverridePositivePolitics06"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusGeldirus2" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="GroundBattleBombardmentAttackerDamagesBonusFromCollection" Operation="Addition" Value="300" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityGeldirus" SearchValueFromPath="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusGeldirus3" Type="PopulationCollectionBonus" >
+  </SimulationDescriptor>
+
+  <!-- Haunts -->
+  <SimulationDescriptor Name="PopulationCollectionBonusHaunts1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics02ToPolitics02" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityHaunts" TooltipOverride="%TooltipOverridePositivePolitics02"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusHaunts2" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="SystemResearchBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityHaunts" SearchValueFromPath="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusHaunts3" Type="PopulationCollectionBonus" >
+
+  </SimulationDescriptor>
+
+  <!-- Hurnas -->
+  <SimulationDescriptor Name="PopulationCollectionBonusHurnas1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityHurnas" TooltipOverride="%TooltipOverridePositivePolitics04"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusHurnas2" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="SystemGrowthBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityHurnas" SearchValueFromPath="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusHurnas3" Type="PopulationCollectionBonus" >
+
+  </SimulationDescriptor>
+
+  <!-- Jotus -->
+  <SimulationDescriptor Name="PopulationCollectionBonusJotus1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityJotus" TooltipOverride="%TooltipOverridePositivePolitics04"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusJotus2" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="VisionRangeBonusFromCollection" Operation="Percent" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityJotus" SearchValueFromPath="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusJotus3" Type="PopulationCollectionBonus" >
+    <BinaryModifier TargetProperty="VisionRange" Operation="Addition" Left="5" BinaryOperation="Multiplication" Right="$(WarCount)" Path="./ClassEmpire/ClassStarSystem"/>
+  </SimulationDescriptor>
+
+  <!-- Kazanji -->
+  <SimulationDescriptor Name="PopulationCollectionBonusKazanji1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics03ToPolitics03" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityKazanji" TooltipOverride="%TooltipOverridePositivePolitics03"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusKazanji2" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="SystemEmpirePointBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityKazanji" SearchValueFromPath="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusKazanji3" Type="PopulationCollectionBonus" >
+
+  </SimulationDescriptor>
+
+  <!-- Magtay -->
+  <SimulationDescriptor Name="PopulationCollectionBonusMagtay1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityMagtay" TooltipOverride="%TooltipOverridePositivePolitics04"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusMagtay2" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="NetSystemManpowerBonusFromCollection" Operation="Percent" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityMagtay" SearchValueFromPath="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusMagtay3" Type="PopulationCollectionBonus" >
+    <BinaryModifier TargetProperty="SystemGrowthBonusFromCollection" Operation="Addition" Left="0.1" BinaryOperation="Multiplication" Right="$(WarCount)" Path="./ClassEmpire/ClassStarSystem"/>
+  </SimulationDescriptor>
+
+  <!-- Nidya -->
+  <SimulationDescriptor Name="PopulationCollectionBonusNidya1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics06ToPolitics06" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityNidya" TooltipOverride="%TooltipOverridePositivePolitics06"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusNidya2" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="GroundBattleBombardmentAttackerDamagesBonusFromCollection" Operation="Addition" Value="300" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityNidya" SearchValueFromPath="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusNidya3" Type="PopulationCollectionBonus" >
+
+  </SimulationDescriptor>
+
+  <!-- Urces -->
+  <SimulationDescriptor Name="PopulationCollectionBonusUrces1" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="Politics04ToPolitics04" Operation="Addition" Value="1" Path="../ClassEmpire/ClassPopulationEmpireAffinityUrces" TooltipOverride="%TooltipOverridePositivePolitics04"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusUrces2" Type="PopulationCollectionBonus" >
+    <Modifier TargetProperty="SystemGrowthBonusFromCollection" Operation="Addition" Value="0.15" Path="../ClassEmpire/ClassStarSystem/ClassPopulationStarSystemAffinityUrces" SearchValueFromPath="true"/>
+  </SimulationDescriptor>
+  <SimulationDescriptor Name="PopulationCollectionBonusUrces3" Type="PopulationCollectionBonus" >
+    <BinaryModifier TargetProperty="SystemProductionFromCollection" Operation="Addition" Left="0.1" BinaryOperation="Multiplication" Right="$(PeaceCount)" Path="./ClassEmpire/ClassStarSystem"/>
+    <BinaryModifier TargetProperty="SystemProductionFromCollection" Operation="Addition" Left="0.1" BinaryOperation="Multiplication" Right="$(AllianceCount)" Path="./ClassEmpire/ClassStarSystem"/>
+  </SimulationDescriptor>
   
   <!-- #####  #   #  #####  #####  #####  ####### -->
   <!-- #      #   #  #        #    #   #  #  #  # -->
