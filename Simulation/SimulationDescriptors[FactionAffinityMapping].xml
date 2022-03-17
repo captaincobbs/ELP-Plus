@@ -24,4 +24,38 @@
   <SimulationDescriptor Name="AffinityMappingRoving" Type="AffinityMapping" />
   <!-- Wild Walkers -->
   <SimulationDescriptor Name="AffinityMappingWalkers" Type="AffinityMapping" />
+  <!-- Bos -->
+  <SimulationDescriptor Name="AffinityMappingBos" Type="AffinityMapping" />
+  <!-- Ceratan -->
+  <SimulationDescriptor Name="AffinityMappingCeratan" Type="AffinityMapping" />
+  <!-- Delvers -->
+  <SimulationDescriptor Name="AffinityMappingDelvers" Type="AffinityMapping" />
+  <!-- Dorgeshi -->
+  <SimulationDescriptor Name="AffinityMappingDorgeshi" Type="AffinityMapping" />
+  <!-- Erycis -->
+  <SimulationDescriptor Name="AffinityMappingErycis" Type="AffinityMapping" />
+  <!-- Eyeless Ones -->
+  <SimulationDescriptor Name="AffinityMappingEyeless" Type="AffinityMapping" />
+  <!-- Fomorian -->
+  <SimulationDescriptor Name="AffinityMappingFomorian" Type="AffinityMapping" />
+  <!-- Gauran -->
+  <SimulationDescriptor Name="AffinityMappingGauran" Type="AffinityMapping" />
+  <!-- Geldirus -->
+  <SimulationDescriptor Name="AffinityMappingGeldirus" Type="AffinityMapping" />
+  <!-- Haunts -->
+  <SimulationDescriptor Name="AffinityMappingHaunts" Type="AffinityMapping" />
+  <!-- Hurnas -->
+  <SimulationDescriptor Name="AffinityMappingHurnas" Type="AffinityMapping" />
+  <!-- Jotus -->
+  <SimulationDescriptor Name="AffinityMappingJotus" Type="AffinityMapping" />
+  <!-- Kazanji -->
+  <SimulationDescriptor Name="AffinityMappingKazanji" Type="AffinityMapping" />
+  <!-- Magtay -->
+  <SimulationDescriptor Name="AffinityMappingMagtay" Type="AffinityMapping" />
+  <!-- Nidya -->
+  <SimulationDescriptor Name="AffinityMappingNidya" Type="AffinityMapping" />
+  <!-- Urces -->
+  <SimulationDescriptor Name="AffinityMappingUrces" Type="AffinityMapping" />
+
+
 </Datatable>
