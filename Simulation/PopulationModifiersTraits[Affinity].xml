@@ -269,4 +269,517 @@
       </Modifier>
     </AssimilatedModifiers>
   </PopulationModifiersTrait>
-</Datatable>
+  
+  <!-- Bos -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitBos" SubCategory="Affinity" ShowInCustom="false" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityBos" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityBos" />
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityBos" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersBosCount" SubCategory="Count" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityBosCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityBosCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityBosCount" />
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Ceratan -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitCeratan" SubCategory="Affinity" ShowInCustom="false" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityCeratan" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityCeratan" />
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityCeratan" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersCeratanCount" SubCategory="Count" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityCeratanCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityCeratanCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityCeratanCount" />
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Delvers -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitDelvers" SubCategory="Affinity" ShowInCustom="false" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityDelvers" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityDelvers" />
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityDelvers" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersDelversCount" SubCategory="Count" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityDelversCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityDelversCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityDelversCount" />
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Dorgeshi -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitDorgeshi" SubCategory="Affinity" ShowInCustom="false" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityDorgeshi" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityDorgeshi" />
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityDorgeshi" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersDorgeshiCount" SubCategory="Count" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityDorgeshiCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityDorgeshiCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityDorgeshiCount" />
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Erycis -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitErycis" SubCategory="Affinity" ShowInCustom="false" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityErycis" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityErycis" />
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityErycis" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersErycisCount" SubCategory="Count" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityErycisCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityErycisCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityErycisCount" />
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Eyeless Ones -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitEyeless" SubCategory="Affinity" ShowInCustom="false" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityEyeless" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityEyeless" />
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityEyeless" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersEyelessCount" SubCategory="Count" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityEyelessCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityEyelessCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityEyelessCount" />
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Fomorian -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitFomorian" SubCategory="Affinity" ShowInCustom="false" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityFomorian" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityFomorian" />
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityFomorian" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersFomorianCount" SubCategory="Count" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityFomorianCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityFomorianCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityFomorianCount" />
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Gauran -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitGauran" SubCategory="Affinity" ShowInCustom="false" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityGauran" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityGauran" />
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityGauran" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersGauranCount" SubCategory="Count" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityGauranCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityGauranCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityGauranCount" />
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Geldirus -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitGeldirus" SubCategory="Affinity" ShowInCustom="false" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityGeldirus" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityGeldirus" />
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityGeldirus" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersGeldirusCount" SubCategory="Count" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityGeldirusCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityGeldirusCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityGeldirusCount" />
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Haunts -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitHaunts" SubCategory="Affinity" ShowInCustom="false" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityHaunts" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityHaunts" />
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityHaunts" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersHauntsCount" SubCategory="Count" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityHauntsCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityHauntsCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityHauntsCount" />
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Hurnas -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitHurnas" SubCategory="Affinity" ShowInCustom="false" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityHurnas" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityHurnas" />
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityHurnas" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersHurnasCount" SubCategory="Count" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityHurnasCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityHurnasCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityHurnasCount" />
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Jotus -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitJotus" SubCategory="Affinity" ShowInCustom="false" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityJotus" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityJotus" />
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityJotus" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersJotusCount" SubCategory="Count" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityJotusCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityJotusCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityJotusCount" />
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Kazanji -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitKazanji" SubCategory="Affinity" ShowInCustom="false" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityKazanji" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityKazanji" />
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityKazanji" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersKazanjiCount" SubCategory="Count" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityKazanjiCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityKazanjiCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityKazanjiCount" />
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Magtay -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitMagtay" SubCategory="Affinity" ShowInCustom="false" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityMagtay" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityMagtay" />
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityMagtay" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersMagtayCount" SubCategory="Count" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityMagtayCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityMagtayCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityMagtayCount" />
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Nidya -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitNidya" SubCategory="Affinity" ShowInCustom="false" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityNidya" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityNidya" />
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityNidya" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersNidyaCount" SubCategory="Count" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityNidyaCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityNidyaCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityNidyaCount" />
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Urces -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitUrces" SubCategory="Affinity" ShowInCustom="false" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityUrces" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemGrowthTypeFood" />
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityUrces" />
+      </Modifier>
+    </Modifiers>
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedEmpireAffinityUrces" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <PopulationModifiersTrait Name="PopulationModifiersUrcesCount" SubCategory="Count" >
+    <Modifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetAffinityUrcesCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationStarSystem" >
+        <SimulationDescriptorReference Name="ClassPopulationStarSystemAffinityUrcesCount" />
+      </Modifier>
+      <Modifier Class="ClassPopulationEmpire" >
+        <SimulationDescriptorReference Name="ClassPopulationEmpireAffinityUrcesCount" />
+      </Modifier>
+    </Modifiers>
+  </PopulationModifiersTrait>
+  
+ </Datatable>
