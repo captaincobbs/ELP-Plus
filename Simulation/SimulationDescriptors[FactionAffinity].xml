@@ -24,4 +24,39 @@
   <SimulationDescriptor Name="AffinityRoving" Type="Affinity" > </SimulationDescriptor>
   <!-- Wild Walkers -->
   <SimulationDescriptor Name="AffinityWalkers" Type="Affinity" > </SimulationDescriptor>
+  <!-- Bos -->
+  <SimulationDescriptor Name="AffinityBos" Type="Affinity" > </SimulationDescriptor>
+  <!-- Ceratan -->
+  <SimulationDescriptor Name="AffinityCeratan" Type="Affinity" > </SimulationDescriptor>
+  <!-- Delvers -->
+  <SimulationDescriptor Name="AffinityDelvers" Type="Affinity" > </SimulationDescriptor>
+  <!-- Dorgeshi -->
+  <SimulationDescriptor Name="AffinityDorgeshi" Type="Affinity" > </SimulationDescriptor>
+  <!-- Erycis -->
+  <SimulationDescriptor Name="AffinityErycis" Type="Affinity" > </SimulationDescriptor>
+  <!-- Eyeless Ones -->
+  <SimulationDescriptor Name="AffinityEyeless" Type="Affinity" > </SimulationDescriptor>
+  <!-- Fomorian -->
+  <SimulationDescriptor Name="AffinityFomorian" Type="Affinity" > </SimulationDescriptor>
+  <!-- Gauran -->
+  <SimulationDescriptor Name="AffinityGauran" Type="Affinity" > </SimulationDescriptor>
+  <!-- Geldirus -->
+  <SimulationDescriptor Name="AffinityGeldirus" Type="Affinity" > </SimulationDescriptor>
+  <!-- Haunts -->
+  <SimulationDescriptor Name="AffinityHaunts" Type="Affinity" > </SimulationDescriptor>
+  <!-- Hurnas -->
+  <SimulationDescriptor Name="AffinityHurnas" Type="Affinity" > </SimulationDescriptor>
+  <!-- Jotus -->
+  <SimulationDescriptor Name="AffinityJotus" Type="Affinity" > </SimulationDescriptor>
+  <!-- Kazanji -->
+  <SimulationDescriptor Name="AffinityKazanji" Type="Affinity" > </SimulationDescriptor>
+  <!-- Magtay -->
+  <SimulationDescriptor Name="AffinityMagtay" Type="Affinity" > </SimulationDescriptor>
+  <!-- Nidya -->
+  <SimulationDescriptor Name="AffinityNidya" Type="Affinity" > </SimulationDescriptor>
+  <!-- Urces -->
+  <SimulationDescriptor Name="AffinityUrces" Type="Affinity" > </SimulationDescriptor>
+
+
+
 </Datatable>
