@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Datatable xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:noNamespaceSchemaLocation="../Schemas/PopulationModifiersTrait.xsd" >
+  <!-- Delvers +2 Industry -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitDelversIndustry" SubCategory="Secondary" ShowInCustom="false" Cost="0" >
+    <Tags>BonusPopulationIndustry</Tags>
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitDelversIndustry" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitDelversIndustry" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitDelversIndustry" />
+      </Modifier>
+    </Modifiers>
+    
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedTraitDelversIndustry" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Delvers +2 Dust on Hot -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitDelversDust" SubCategory="Secondary" ShowInCustom="false" Cost="0" >
+    <Tags>PlanetGameplayTypeHot,BonusPopulationDust</Tags>
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitDelversDust" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitDelversDust" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitDelversDust" />
+      </Modifier>
+    </Modifiers>
+
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedTraitDelversDust" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Eyeless +5 Approval on Sterile -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitEyelessHappy" SubCategory="Secondary" ShowInCustom="false" Cost="0" >
+    <Tags>PlanetGameplayTypeMeager,BonusPopulationHappiness</Tags>
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitEyelessHappy" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitEyelessHappy" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitEyelessHappy" />
+      </Modifier>
+    </Modifiers>
+
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedTraitEyelessHappy" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Fomorian +1 FIDSI -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitFomorianFIDSI" SubCategory="Secondary" ShowInCustom="false" Cost="0" >
+    <Tags>BonusPopulationFIDSI</Tags>
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitFomorianFIDSI" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitFomorianFIDSI" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitFomorianFIDSI" />
+      </Modifier>
+    </Modifiers>
+
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedTraitFomorianFIDSI" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Gauran +1 Influence on Happy -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitGauranInfluence" SubCategory="Secondary" ShowInCustom="false" Cost="0" >
+    <Tags>HappinessStatusStarSystem3,BonusPopulationPrestige</Tags>
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitGauranInfluence" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitGauranInfluence" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitGauranInfluence" />
+      </Modifier>
+    </Modifiers>
+
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedTraitGauranInfluence" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Geldirus +50 Defense on Cold-->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitGeldirusDefense" SubCategory="Secondary" ShowInCustom="false" Cost="0" >
+    <Tags>PlanetGameplayTypeTeeming,BonusPopulationHappiness</Tags>
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitGeldirusDefense" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitGeldirusDefense" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitGeldirusDefense" />
+      </Modifier>
+    </Modifiers>
+
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedTraitGeldirusDefense" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Haunts +4 Science on Sterile -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitHauntsScience" SubCategory="Secondary" ShowInCustom="false" Cost="0" >
+    <Tags>PlanetGameplayTypeMeager,BonusPopulationScience</Tags>
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitHauntsScience" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitHauntsScience" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitHauntsScience" />
+      </Modifier>
+    </Modifiers>
+
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedTraitHauntsScience" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+  
+  <!-- Hurnas +25 Defense on Cold-->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitHurnasDefense" SubCategory="Secondary" ShowInCustom="false" Cost="0" >
+    <Tags>PlanetGameplayTypeCold,BonusPopulationHappiness</Tags>
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitHurnasDefense" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitHurnasDefense" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitHurnasDefense" />
+      </Modifier>
+    </Modifiers>
+
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedTraitHurnasDefense" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Jotus +3 Manpower on Cold-->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitJotusManpower" SubCategory="Secondary" ShowInCustom="false" Cost="0" >
+    <Tags>PlanetGameplayTypeCold,BonusPopulationEmpireManpower</Tags>
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitJotusManpower" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitJotusManpower" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitJotusManpower" />
+      </Modifier>
+    </Modifiers>
+
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedTraitJotusManpower" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Drakken +2 Influence on Anomalies -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitSecondaryInfluenceAnomaly01" SubCategory="Secondary" ShowInCustom="true" Cost="10" >
+    <Tags>PlanetAnomaly,BonusPopulationPrestige</Tags>
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitSecondaryInfluenceAnomaly01" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" >
+        <!--+2 Influence per Population on Planet on Anomalies-->
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryInfluenceAnomaly01" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitSecondaryInfluenceAnomaly01" />
+      </Modifier>
+    </Modifiers>
+    
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <!--Bonus given to the Population that assimilates them-->
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetInfluenceAnomaly01" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Necrophages -2 Food -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitPhagesFood" SubCategory="Secondary" ShowInCustom="true" Cost="-5" >
+    <Tags>BonusPopulationFood</Tags>
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitPhagesFood" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" >
+        <!-- +2 Production -->
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPhagesFood" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitPhagesFood" />
+      </Modifier>
+    </Modifiers>
+
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <!--Bonus given to the Population that assimilates them-->
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetPhagesFood" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+  <!-- Wild Walkers +5 Production on Fertile -->
+  <PopulationModifiersTrait Name="PopulationModifiersTraitWalkersIndustry" SubCategory="Secondary" ShowInCustom="true" Cost="5" >
+    <Tags>PlanetGameplayTypeTeeming,BonusPopulationIndustry</Tags>
+    <Modifiers>
+      <Modifier Class="ClassPopulationEmpire" DisplayWhenBoostedOnly="true" >
+        <SimulationDescriptorReference Name="WithPopulationPlanetModifiersTraitWalkersIndustry" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" >
+        <!--+5 Industry on Fertile-->
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitWalkersIndustry" />
+      </Modifier>
+      <Modifier Class="ClassPopulationPlanet" SuperPopulationOnly="true" >
+        <SimulationDescriptorReference Name="ClassPopulationPlanetModifiersTraitWalkersIndustry" />
+      </Modifier>
+    </Modifiers>
+
+    <AssimilatedModifiers>
+      <Modifier Class="ClassPopulationPlanet" >
+        <!--Bonus given to the Population that assimilates them-->
+        <SimulationDescriptorReference Name="ClassPopulationAssimilatedPlanetWalkersIndustry" />
+      </Modifier>
+    </AssimilatedModifiers>
+  </PopulationModifiersTrait>
+
+
+
+
+
+
+
+
+
+</Datatable>
