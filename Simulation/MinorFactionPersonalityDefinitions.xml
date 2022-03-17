@@ -131,4 +131,186 @@
       <Trait Name="FactionTraitWalkersSight" />
     </MinorTrait>
   </MinorFactionPersonalityDefinition>
+
+  <!-- Bos -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityBos" >
+    <MajorTrait Name="PersonalityTraitWarmonger" />
+    <MinorTrait Weight="6" >
+      <Trait Name="FactionTraitBosUpkeep" />
+    </MinorTrait>
+    <MinorTrait Weight="4" >
+      <Trait Name="FactionTraitBosLoss" />
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
+
+  <!-- Ceratan -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityCeratan" >
+    <MajorTrait Name="PersonalityTraitPacifist" />
+    <MinorTrait Weight="6" >
+      <Trait Name="FactionTraitCeratanDefense" />
+    </MinorTrait>
+    <MinorTrait Weight="4" >
+      <Trait Name="FactionTraitCeratanRegen" />
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
+
+  <!-- Delvers -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityDelvers" >
+    <MajorTrait Name="PersonalityTraitPacifist" />
+    <MinorTrait Weight="7" >
+      <Trait Name="FactionTraitDelversIndustry" />
+    </MinorTrait>
+    <MinorTrait Weight="3" >
+      <Trait Name="FactionTraitDelversMiners" />
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
+
+  <!-- Dorgeshi -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityDorgeshi" >
+    <MajorTrait Name="PersonalityTraitWarmonger" />
+    <MinorTrait Weight="9" >
+      <Trait Name="FactionTraitDorgeshiUpkeep" />
+    </MinorTrait>
+    <MinorTrait Weight="1" >
+      <Trait Name="FactionTraitDorgeshiLuxury" />
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
+
+  <!-- Erycis -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityErycis" >
+    <MajorTrait Name="PersonalityTraitPragmatist" />
+    <MinorTrait Weight="8" >
+      <Trait Name="FactionTraitErycisMovement" />
+    </MinorTrait>
+    <MinorTrait Weight="2" >
+      <Trait Name="FactionTraitErycisSpeed" />
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
+
+  <!-- Eyeless Ones -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityEyeless" >
+    <MajorTrait Name="PersonalityTraitPacifist" />
+    <MinorTrait Weight="6" >
+      <Trait Name="FactionTraitEyelessHero" />
+    </MinorTrait>
+    <MinorTrait Weight="4" >
+      <Trait Name="FactionTraitEyelessUnit" />
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
+
+  <!-- Fomorian -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityFomorian" >
+    <MajorTrait Name="PersonalityTraitPragmatist" />
+    <MinorTrait Weight="1" >
+      <Trait Name="FactionTraitFomorianLuxury" />
+    </MinorTrait>
+    <MinorTrait Weight="4" >
+      <Trait Name="FactionTraitFomorianTrade" />
+    </MinorTrait>
+    <MinorTrait Weight="3" >
+      <Trait Name="FactionTraitFomorianDust" />
+    </MinorTrait>
+    <MinorTrait Weight="2" >
+      <Trait Name="FactionTraitFomorianEnergy" />
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
+
+  <!-- Gauran -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityGauran" >
+    <MajorTrait Name="PersonalityTraitWarmonger" />
+    <MinorTrait Weight="3" >
+      <Trait Name="FactionTraitGauranHealth" />
+    </MinorTrait>
+    <MinorTrait Weight="7" >
+      <Trait Name="FactionTraitGauranFood" />
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
+
+  <!-- Geldirus -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityGeldirus" >
+    <MajorTrait Name="PersonalityTraitWarmonger" />
+    <MinorTrait Weight="5" >
+      <Trait Name="FactionTraitGeldirusFIDSI" />
+    </MinorTrait>
+    <MinorTrait Weight="5" >
+      <Trait Name="FactionTraitGeldirusManpower" />
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
+
+  <!-- Haunts -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityHaunts" >
+    <MajorTrait Name="PersonalityTraitPragmatist" />
+    <MinorTrait Weight="4" >
+      <Trait Name="FactionTraitHauntsMilitary" />
+    </MinorTrait>
+    <MinorTrait Weight="6" >
+      <Trait Name="FactionTraitHauntsEconomy" />
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
+
+  <!-- Hurnas -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityHurnas" >
+    <MajorTrait Name="PersonalityTraitWarmonger" />
+    <MinorTrait Weight="1" >
+      <Trait Name="FactionTraitHurnasAccuracy" />
+    </MinorTrait>
+    <MinorTrait Weight="9" >
+      <Trait Name="FactionTraitHurnasFood" />
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
+
+  <!-- Jotus -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityJotus" >
+    <MajorTrait Name="PersonalityTraitWarmonger" />
+    <MinorTrait Weight="7" >
+      <Trait Name="FactionTraitJotusVision" />
+    </MinorTrait>
+    <MinorTrait Weight="3" >
+      <Trait Name="FactionTraitJotusAccuracy" />
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
+
+  <!-- Kazanji -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityKazanji" >
+    <MajorTrait Name="PersonalityTraitWarmonger" />
+    <MinorTrait Weight="7" >
+      <Trait Name="FactionTraitKazanjiWar" />
+    </MinorTrait>
+    <MinorTrait Weight="3" >
+      <Trait Name="FactionTraitKazanjiInfluence" />
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
+
+  <!-- Magtay -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityMagtay" >
+    <MajorTrait Name="PersonalityTraitPragmatist" />
+    <MinorTrait Weight="8" >
+      <Trait Name="FactionTraitMagtayManpower" />
+    </MinorTrait>
+    <MinorTrait Weight="2" >
+      <Trait Name="FactionTraitMagtayHappiness" />
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
+
+  <!-- Nidya -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityNidya" >
+    <MajorTrait Name="PersonalityTraitWarmonger" />
+    <MinorTrait Weight="6" >
+      <Trait Name="FactionTraitNidyaDodge" />
+    </MinorTrait>
+    <MinorTrait Weight="4" >
+      <Trait Name="FactionTraitNidyaAirpower" />
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>
+
+  <!-- Urces -->
+  <MinorFactionPersonalityDefinition Name="FactionPersonalityUrces" >
+    <MajorTrait Name="PersonalityTraitPacifist" />
+    <MinorTrait Weight="3" >
+      <Trait Name="FactionTraitUrcesIndustry" />
+    </MinorTrait>
+    <MinorTrait Weight="7" >
+      <Trait Name="FactionTraitUrcesFood" />
+    </MinorTrait>
+  </MinorFactionPersonalityDefinition>  
 </Datatable>
