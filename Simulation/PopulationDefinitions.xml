@@ -412,4 +412,468 @@
       <Luxury>Luxury8</Luxury>
     </GrowthBoostLuxuryOptions>
   </PopulationDefinition>
+  
+  <!-- Bos -->
+  <PopulationDefinition AffinityName="AffinityBos" Standard="true" >
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0" />
+    </DefaultPolitics>
+    <Trait Name="PopulationPoliticalTraitEcologist"/>
+    <Trait Name="PopulationPoliticalTraitEcologistToMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitXenophobic"/>
+    
+    <Trait Name="PopulationModifiersBosCount" />
+    <Trait Name="PopulationModifiersTraitBos" />
+
+    <Trait Name="PopulationModifiersTraitSecondaryManpower"/><!-- +1 Manpower -->
+    <Trait Name="PopulationModifiersTraitSecondaryFoodFertile01"/><!-- +3 Food on Fertile -->
+    <Trait Name="PopulationCollectionBonusTraitBos" />
+
+    <AffinityMapping Name="AffinityMappingBos" />
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
+
+  <!-- Ceratan -->
+  <PopulationDefinition AffinityName="AffinityCeratan" Standard="true" >
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0" />
+    </DefaultPolitics>
+    <Trait Name="PopulationPoliticalTraitPacifist"/>
+    <Trait Name="PopulationPoliticalTraitMerciful"/>
+    <Trait Name="PopulationPoliticalTraitAntiMilitarist"/>
+
+    <Trait Name="PopulationModifiersCeratanCount" />
+    <Trait Name="PopulationModifiersTraitCeratan" />
+
+    <Trait Name="PopulationModifiersTraitPrimaryFood01"/> <!-- +1 Food -->
+    <Trait Name="PopulationModifiersTraitSecondaryHappinessTemperate"/> <!-- +3 Happiness on Temperate -->
+    <Trait Name="PopulationCollectionBonusTraitCeratan" />
+
+    <AffinityMapping Name="AffinityMappingCeratan" />
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
+
+  <!-- Delvers -->
+  <PopulationDefinition AffinityName="AffinityDelvers" Standard="true" >
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0" />
+    </DefaultPolitics>
+    <Trait Name="PopulationPoliticalTraitIndustrialist"/>
+    <Trait Name="PopulationPoliticalTraitEcologistToIndustrialist"/>
+    <Trait Name="PopulationPoliticalTraitAggressive"/>
+
+    <Trait Name="PopulationModifiersDelversCount" />
+    <Trait Name="PopulationModifiersTraitDelvers" />
+
+    <Trait Name="PopulationModifiersTraitDelversIndustry"/><!-- +2 Industry -->
+    <Trait Name="PopulationModifiersTraitDelversDust"/><!-- +2 Dust on Hot -->
+    
+    <Trait Name="PopulationCollectionBonusTraitDelvers" />
+
+    <AffinityMapping Name="AffinityMappingDelvers" />
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
+
+  <!-- Dorgeshi -->
+  <PopulationDefinition AffinityName="AffinityDorgeshi" Standard="true" >
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0" />
+    </DefaultPolitics>
+    <Trait Name="PopulationPoliticalTraitMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitMilitaristToEcologist"/>
+    <Trait Name="PopulationPoliticalTraitAntiPacifist"/>
+
+    <Trait Name="PopulationModifiersDorgeshiCount" />
+    <Trait Name="PopulationModifiersTraitDorgeshi" />
+
+    <Trait Name="PopulationModifiersTraitSecondaryDustHappy"/> <!-- +2 Dust on Happy -->
+    <Trait Name="PopulationModifiersTraitSecondaryGroundBattleAttackerDamage01"/><!-- +25 Defense -->
+    <Trait Name="PopulationCollectionBonusTraitDorgeshi" />
+
+    <AffinityMapping Name="AffinityMappingDorgeshi" />
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
+
+  <!-- Erycis -->
+  <PopulationDefinition AffinityName="AffinityErycis" Standard="true" >
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0" />
+    </DefaultPolitics>
+    <Trait Name="PopulationPoliticalTraitPacifist"/>
+    <Trait Name="PopulationPoliticalTraitXenophobic"/>
+    <Trait Name="PopulationPoliticalTraitEcologistToMilitarist"/>
+
+    <Trait Name="PopulationModifiersErycisCount" />
+    <Trait Name="PopulationModifiersTraitErycis" />
+
+    <Trait Name="PopulationModifiersTraitPrimaryHappiness"/> <!-- +2 Approval -->
+    <Trait Name="PopulationModifiersTraitSecondaryManpower"/> <!-- +1 Manpower/T -->
+    <Trait Name="PopulationCollectionBonusTraitErycis" />
+
+    <AffinityMapping Name="AffinityMappingErycis" />
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
+
+  <!-- Eyeless Ones -->
+  <PopulationDefinition AffinityName="AffinityEyeless" Standard="true" >
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0" />
+    </DefaultPolitics>
+    <Trait Name="PopulationPoliticalTraitReligious"/>
+    <Trait Name="PopulationPoliticalTraitEcologistToReligious"/>
+    <Trait Name="PopulationPoliticalTraitCurious"/>
+
+    <Trait Name="PopulationModifiersEyelessCount" />
+    <Trait Name="PopulationModifiersTraitEyeless" />
+
+    <Trait Name="PopulationModifiersTraitPrimaryInfluence"/><!-- +1 Influence -->
+    <Trait Name="PopulationModifiersTraitEyelessHappy"/><!-- +5 Approval on Sterile -->
+    <Trait Name="PopulationCollectionBonusTraitEyeless" />
+
+    <AffinityMapping Name="AffinityMappingEyeless" />
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
+
+  <!-- Fomorian -->
+  <PopulationDefinition AffinityName="AffinityFomorian" Standard="true" >
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0" />
+    </DefaultPolitics>
+    <Trait Name="PopulationPoliticalTraitMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitSagacious"/>
+    <Trait Name="PopulationPoliticalTraitPacifistToEcologist"/>
+
+    <Trait Name="PopulationModifiersFomorianCount" />
+    <Trait Name="PopulationModifiersTraitFomorian" />
+
+    <Trait Name="PopulationModifiersTraitFomorianFIDSI"/><!-- +1 FIDSI -->
+    <Trait Name="PopulationCollectionBonusTraitFomorian" />
+
+    <AffinityMapping Name="AffinityMappingFomorian" />
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
+
+  <!-- Gauran -->
+  <PopulationDefinition AffinityName="AffinityGauran" Standard="true" >
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0" />
+    </DefaultPolitics>
+    <Trait Name="PopulationPoliticalTraitEcologist"/>
+    <Trait Name="PopulationPoliticalTraitMilitaristToScientific"/>
+    <Trait Name="PopulationPoliticalTraitHedonist"/>
+
+    <Trait Name="PopulationModifiersGauranCount" />
+    <Trait Name="PopulationModifiersTraitGauran" />
+
+    <Trait Name="PopulationModifiersTraitPrimaryFood02"/> <!-- +2 Food -->
+    <Trait Name="PopulationModifiersTraitGauranInfluence"/><!-- +1 Influence on Happy -->
+    <Trait Name="PopulationCollectionBonusTraitGauran" />
+
+    <AffinityMapping Name="AffinityMappingGauran" />
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
+
+  <!-- Geldirus -->
+  <PopulationDefinition AffinityName="AffinityGeldirus" Standard="true" >
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0" />
+    </DefaultPolitics>
+    <Trait Name="PopulationPoliticalTraitMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitXenophobic"/>
+    <Trait Name="PopulationPoliticalTraitAggressive"/>
+
+    <Trait Name="PopulationModifiersGeldirusCount" />
+    <Trait Name="PopulationModifiersTraitGeldirus" />
+
+    <Trait Name="PopulationModifiersTraitPrimaryFood01"/> <!-- +1 Food -->
+    <Trait Name="PopulationModifiersTraitGeldirusDefense"/><!-- +50 Defense on Cold -->
+    <Trait Name="PopulationCollectionBonusTraitGeldirus" />
+
+    <AffinityMapping Name="AffinityMappingGeldirus" />
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
+
+  <!-- Haunts -->
+  <PopulationDefinition AffinityName="AffinityHaunts" Standard="true" >
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0" />
+    </DefaultPolitics>
+    <Trait Name="PopulationPoliticalTraitPacifist"/>
+    <Trait Name="PopulationPoliticalTraitScientificToPacifist"/>
+    <Trait Name="PopulationPoliticalTraitEcologistToScience"/>
+
+    <Trait Name="PopulationModifiersHauntsCount" />
+    <Trait Name="PopulationModifiersTraitHaunts" />
+
+    <Trait Name="PopulationModifiersTraitPrimaryScience01"/> <!-- +1 Science -->
+    <Trait Name="PopulationModifiersTraitHauntsScience"/><!-- +4 Science on Sterile -->
+    <Trait Name="PopulationCollectionBonusTraitHaunts" />
+
+    <AffinityMapping Name="AffinityMappingHaunts" />
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
+
+  <!-- Hurnas -->
+  <PopulationDefinition AffinityName="AffinityHurnas" Standard="true" >
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0" />
+    </DefaultPolitics>
+    <Trait Name="PopulationPoliticalTraitMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitEcologistToMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitEcologistToReligious"/>
+
+    <Trait Name="PopulationModifiersHurnasCount" />
+    <Trait Name="PopulationModifiersTraitHurnas" />
+
+    <Trait Name="PopulationModifiersTraitPrimaryFood02"/> <!-- +2 Food -->
+    <Trait Name="PopulationModifiersTraitHurnasDefense"/><!-- +25 Defense on Cold -->
+    <Trait Name="PopulationCollectionBonusTraitHurnas" />
+
+    <AffinityMapping Name="AffinityMappingHurnas" />
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
+
+  <!-- Jotus -->
+  <PopulationDefinition AffinityName="AffinityJotus" Standard="true" >
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0" />
+    </DefaultPolitics>
+    <Trait Name="PopulationPoliticalTraitMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitEcologistToMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitXenophobic"/>
+
+    <Trait Name="PopulationModifiersJotusCount" />
+    <Trait Name="PopulationModifiersTraitJotus" />
+
+    <Trait Name="PopulationModifiersTraitPrimaryIndustry"/><!-- +1 Industry -->
+    <Trait Name="PopulationModifiersTraitJotusManpower"/><!-- +3 Manpower on Cold -->
+    <Trait Name="PopulationCollectionBonusTraitJotus" />
+
+    <AffinityMapping Name="AffinityMappingJotus" />
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
+
+  <!-- Kazanji -->
+  <PopulationDefinition AffinityName="AffinityKazanji" Standard="true" >
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0" />
+    </DefaultPolitics>
+    <Trait Name="PopulationPoliticalTraitPacifist"/>
+    <Trait Name="PopulationPoliticalTraitCurious"/>
+    <Trait Name="PopulationPoliticalTraitEcologistToReligious"/>
+
+    <Trait Name="PopulationModifiersKazanjiCount" />
+    <Trait Name="PopulationModifiersTraitKazanji" />
+
+    <Trait Name="PopulationModifiersTraitPrimaryInfluence"/> <!-- +1 Influence -->
+    <Trait Name="PopulationModifiersTraitSecondaryScienceHot"/> <!-- +2 Science on Hot -->
+    <Trait Name="PopulationCollectionBonusTraitKazanji" />
+
+    <AffinityMapping Name="AffinityMappingKazanji" />
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
+
+  <!-- Magtay -->
+  <PopulationDefinition AffinityName="AffinityMagtay" Standard="true" >
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics04" BaseScore="1" BaseTrend="0" />
+    </DefaultPolitics>
+    <Trait Name="PopulationPoliticalTraitMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitEcologistToMilitarist"/>
+    <Trait Name="PopulationPoliticalTraitScientificToEcologist"/>
+
+    <Trait Name="PopulationModifiersMagtayCount" />
+    <Trait Name="PopulationModifiersTraitMagtay" />
+
+    <Trait Name="PopulationModifiersTraitPrimaryFood02"/> <!-- +2 Food -->
+    <Trait Name="PopulationModifiersTraitSecondaryDefenseFertile"/> <!-- +30 Max System Manpower on Fertile -->
+    <Trait Name="PopulationCollectionBonusTraitMagtay" />
+
+    <AffinityMapping Name="AffinityMappingMagtay" />
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
+
+  <!-- Nidya -->
+  <PopulationDefinition AffinityName="AffinityNidya" Standard="true" >
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics06" BaseScore="1" BaseTrend="0" />
+    </DefaultPolitics>
+    <Trait Name="PopulationPoliticalTraitReligious"/>
+    <Trait Name="PopulationPoliticalTraitMilitaristToScientific"/>
+    <Trait Name="PopulationPoliticalTraitXenophobic"/>
+
+    <Trait Name="PopulationModifiersNidyaCount" />
+    <Trait Name="PopulationModifiersTraitNidya" />
+
+    <Trait Name="PopulationModifiersTraitPrimaryGroundBattleAttackerDamage"/> <!-- +50 Defensive Damage -->
+    <Trait Name="PopulationModifiersTraitSecondaryManpower"/> <!-- +1 Manpower -->
+    <Trait Name="PopulationCollectionBonusTraitNidya" />
+
+    <AffinityMapping Name="AffinityMappingNidya" />
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>
+
+  <!-- Urces -->
+  <PopulationDefinition AffinityName="AffinityUrces" Standard="true" >
+    <DefaultPolitics>
+      <Politics PoliticsReference="Politics01" BaseScore="1" BaseTrend="0" />
+    </DefaultPolitics>
+    <Trait Name="PopulationPoliticalTraitEcologist"/>
+    <Trait Name="PopulationPoliticalTraitOptimised"/>
+    <Trait Name="PopulationPoliticalTraitAntiScientist"/>
+
+    <Trait Name="PopulationModifiersUrcesCount" />
+    <Trait Name="PopulationModifiersTraitUrces" />
+
+    <Trait Name="PopulationModifiersTraitPrimaryFood02"/> <!-- +2 Food -->
+    <Trait Name="PopulationModifiersTraitSecondaryIndustryFertile"/> <!-- +2 Industry on Fertile-->
+    <Trait Name="PopulationCollectionBonusTraitUrces" />
+
+    <AffinityMapping Name="AffinityMappingUrces" />
+    <GrowthBoostLuxuryOptions>
+      <Luxury>Luxury1</Luxury>
+      <Luxury>Luxury2</Luxury>
+      <Luxury>Luxury3</Luxury>
+      <Luxury>Luxury4</Luxury>
+      <Luxury>Luxury5</Luxury>
+      <Luxury>Luxury6</Luxury>
+      <Luxury>Luxury7</Luxury>
+      <Luxury>Luxury8</Luxury>
+    </GrowthBoostLuxuryOptions>
+  </PopulationDefinition>  
 </Datatable>
